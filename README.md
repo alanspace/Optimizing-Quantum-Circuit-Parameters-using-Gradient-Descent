@@ -21,3 +21,10 @@ Initial parameters for the gates $R_x, R_y$ corresponding to their parameters: t
 A circuit that applies the operations to thte qubits: circuit
 A simulator that runs the circuit fora specified numbdr of repetitions: reps, simulator
 We introdue coding Gradient Descent on Task 2 for optimized parametrized circuit using pennyLane and qiskit.
+
+
+\begin{aligned}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{aligned}
